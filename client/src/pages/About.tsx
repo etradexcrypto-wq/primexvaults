@@ -35,19 +35,19 @@ export default function About() {
           <div className="container" style={{ position: 'relative', zIndex: 2, maxWidth: '1200px', margin: '0 auto' }}>
             <p className="eyebrow" style={{ fontSize: "0.875rem", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: "1rem", display: "flex", alignItems: "center", gap: "0.5rem", color: '#86efac' }}>
               <span className="eyebrow-dot" style={{ width: "8px", height: "8px", backgroundColor: "#86efac", borderRadius: "50%" }} /> 
-              03 / About global24hourtrade
+              03 / About primexvaults
             </p>
             <h1 style={{ fontSize: "4rem", lineHeight: "1.1", fontWeight: "700", marginBottom: "1.5rem" }}>
               Investing,<br />
               <em style={{ fontStyle: "italic", color: "#e2e8f0" }}>reconsidered.</em>
             </h1>
             <p style={{ maxWidth: "600px", lineHeight: "1.6", color: "#f1f5f9", fontSize: "1.25rem" }}>
-              We started global24hourtrade with a simple conviction: building wealth should feel empowering, not intimidating.
+              We started primexvaults with a simple conviction: building wealth should feel empowering, not intimidating.
             </p>
           </div>
         </section>
 
-        {/* 2. WHO WE ARE - Updated to global24hourtrade */}
+        {/* 2. WHO WE ARE - Updated to primexvaults */}
         <section style={{ padding: "6rem 2rem", backgroundColor: "#0f172a", color: "white" }}>
           <div className="container" style={{ maxWidth: "1200px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "4rem", alignItems: "center" }}>
             <div>
@@ -57,7 +57,7 @@ export default function About() {
                 <em style={{ fontStyle: "italic", color: "#94a3b8" }}>Local impact.</em>
               </h2>
               <p style={{ lineHeight: "1.7", color: "#cbd5e1", fontSize: "1.1rem", marginBottom: "2rem" }}>
-                <strong>global24hourtrade</strong> is one of the world’s leading modern investment partners. We offer diversified portfolios, rigorous research, and transparent tools on forex, stocks & indices, cryptocurrencies, commodities, and derived assets to millions of registered users across the globe.
+                <strong>primexvaults</strong> is one of the world’s leading modern investment partners. We offer diversified portfolios, rigorous research, and transparent tools on forex, stocks & indices, cryptocurrencies, commodities, and derived assets to millions of registered users across the globe.
               </p>
               <a href="/market" style={{ color: "#86efac", textDecoration: "none", fontWeight: "600", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}>
                 Explore our markets <ArrowUpRight size={16} />
@@ -84,7 +84,7 @@ export default function About() {
           marginBottom: "2rem"
         }}>
           <div>
-            <img className="founder-image" src={founder} alt="global24hourtrade investment strategist" style={{ width: "100%", borderRadius: "12px", boxShadow: "0 10px 30px rgba(0,0,0,0.3)", border: "4px solid #334155" }} />
+            <img className="founder-image" src={founder} alt="primexvaults investment strategist" style={{ width: "100%", borderRadius: "12px", boxShadow: "0 10px 30px rgba(0,0,0,0.3)", border: "4px solid #334155" }} />
           </div>
           <div className="about-copy animate__animated animate__fadeInUp">
             <p className="eyebrow" style={{ fontSize: "0.875rem", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: "1rem", color: '#86efac', fontWeight: "600" }}>A long view</p>
@@ -93,11 +93,11 @@ export default function About() {
               <em style={{ fontStyle: "italic", color: "#cbd5e1" }}>gets personal.</em>
             </h2>
             <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem", color: "#e2e8f0", lineHeight: "1.7", fontSize: "1.05rem" }}>
-              <p>global24hourtrade is a modern investment partner for people who want to do more with their money — and understand it better along the way.</p>
+              <p>primexvaults is a modern investment partner for people who want to do more with their money — and understand it better along the way.</p>
               <p>We combine rigorous research, thoughtful technology, and genuine human support to help you make decisions with confidence.</p>
               <p>Our work is grounded in patience, transparency, and a belief that every financial plan should leave more room for a meaningful life.</p>
             </div>
-            <a className="text-link" href="mailto:support@global24hourtrade.com" style={{ marginTop: "2rem", display: "inline-flex", alignItems: "center", gap: "0.5rem", fontWeight: "600", color: "#ffffff", textDecoration: "none" }}>
+            <a className="text-link" href="mailto:support@primexvaults.com" style={{ marginTop: "2rem", display: "inline-flex", alignItems: "center", gap: "0.5rem", fontWeight: "600", color: "#ffffff", textDecoration: "none" }}>
               Talk to our team <ArrowUpRight size={16} />
             </a>
           </div>

@@ -188,12 +188,12 @@ export default function Market() {
           <div className="container" style={{ maxWidth: "800px", margin: "0 auto" }}>
             <h2 style={{ fontSize: "2.5rem", marginBottom: "1rem", color: "#f3f4f6" }}>Make your next move<br /><em style={{ color: "#9ca3af" }}>deliberate.</em></h2>
             <div style={{ display: "flex", gap: "1rem", justifyContent: "center", marginTop: "2rem", flexWrap: "wrap" }}>
-               <a href="https://app.global24hourtrade.com" style={{ padding: "1rem 2rem", background: "#22c55e", color: "#fff", textDecoration: "none", borderRadius: "8px", fontWeight: "600" }}>Open your account</a>
+               <a href="https://app.primexvaults.com" style={{ padding: "1rem 2rem", background: "#22c55e", color: "#fff", textDecoration: "none", borderRadius: "8px", fontWeight: "600" }}>Open your account</a>
                <Link href="/market" style={{ padding: "1rem 2rem", background: "transparent", border: "1px solid #4b5563", color: "#e5e7eb", textDecoration: "none", borderRadius: "8px", fontWeight: "600" }}>Explore Markets</Link>
             </div>
             <div style={{ marginTop: "3rem", display: "flex", gap: "2rem", justifyContent: "center", fontSize: "0.9rem", color: "#9ca3af" }}>
               <Link href="/approach" style={{ color: "#9ca3af", textDecoration: "none" }}>Our approach</Link>
-              <Link href="/about" style={{ color: "#9ca3af", textDecoration: "none" }}>About global24hourtrade</Link>
+              <Link href="/about" style={{ color: "#9ca3af", textDecoration: "none" }}>About primexvaults</Link>
               <Link href="/resources" style={{ color: "#9ca3af", textDecoration: "none" }}>Resources</Link>
             </div>
           </div>

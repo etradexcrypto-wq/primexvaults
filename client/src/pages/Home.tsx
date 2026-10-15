@@ -85,12 +85,12 @@ export default function Home() {
             <h1>Invest with<br /><RotatingHeadline /></h1>
             <p className="hero-copy">Navigate markets with precision. Build a resilient portfolio using tools that turn complex data into clear, long-term confidence.</p>
             <div className="hero-actions">
-              <a className="button button-sand" href="https://app.global24hourtrade.com">Start building <ArrowUpRight size={16} /></a>
+              <a className="button button-sand" href="https://app.primexvaults.com">Start building <ArrowUpRight size={16} /></a>
               <Link className="button button-ghost" href="/market">View markets <ArrowDownRight size={16} /></Link>
             </div>
-            <img className="hero-bana" src="https://fxpro-cdn.cloud/repo/website/assets/img/components/ui-platforms/platforms-image-block@1376.webp" alt="global24hourtrade digital investing preview" />
+            <img className="hero-bana" src="https://fxpro-cdn.cloud/repo/website/assets/img/components/ui-platforms/platforms-image-block@1376.webp" alt="primexvaults digital investing preview" />
           </div>
-          <img className="hero-bana-desktop" src="https://fxpro-cdn.cloud/repo/website/assets/img/components/ui-platforms/platforms-image-block@1376.webp" alt="global24hourtrade portfolio interface" />
+          <img className="hero-bana-desktop" src="https://fxpro-cdn.cloud/repo/website/assets/img/components/ui-platforms/platforms-image-block@1376.webp" alt="primexvaults portfolio interface" />
           <div className="hero-note"><span>01</span><span>Patient capital<br />for real growth.</span></div>
         </section>
         
@@ -129,14 +129,14 @@ export default function Home() {
 
         <section className="intro-section container section-pad animate__animated animate__fadeInLeft">
           <div className="section-kicker"><span>01 / The new standard</span><span className="line" /></div>
-          <div className="intro-grid"><div><h2>More than numbers.<br /><em>A clear perspective.</em></h2></div><div className="intro-body"><p>Volatility is noise. Your goals are signal. global24hourtrade combines rigorous research with transparent tools, bringing a human touch to the art of stock investing.</p><Link className="text-link" href="/approach">See our philosophy <ChevronRight size={16} /></Link></div></div>
+          <div className="intro-grid"><div><h2>More than numbers.<br /><em>A clear perspective.</em></h2></div><div className="intro-body"><p>Volatility is noise. Your goals are signal. primexvaults combines rigorous research with transparent tools, bringing a human touch to the art of stock investing.</p><Link className="text-link" href="/approach">See our philosophy <ChevronRight size={16} /></Link></div></div>
           <div className="metric-row"><div><strong><AnimatedCounter value={98.4} suffix="%" decimals={1} /></strong><span>Total transparency</span></div><div><strong><AnimatedCounter value={24} suffix="/7" /></strong><span>Real-time access</span></div><div><strong><AnimatedCounter value={1} suffix=":1" /></strong><span>Dedicated support</span></div></div><div className="point-of-view-row"><p>Discover how a disciplined, calm approach transforms into a portfolio you can trust.</p><Link className="button button-dark" href="/approach">Our approach <ChevronRight size={16} /></Link></div>
         </section>
 
         <PointOfViewShowcase />
         <MarketOverview />
 
-        <section className="feature-section section-pad"><div className="container feature-grid"><div className="feature-copy"><p className="eyebrow"><span className="eyebrow-dot" /> Why global24hourtrade</p><h2>Grow with conviction<br /><em>and clarity.</em></h2><p>We combine global diversification with a steady, human perspective. No hype. No hidden fees. Just a robust system designed for your future.</p><div className="feature-list"><div><ShieldCheck size={20} /><span><strong>Built for resilience</strong> Strategies engineered for decades, not days.</span></div><div><LineChart size={20} /><span><strong>Radical transparency</strong> Know what you own, why you own it, and the true cost.</span></div><div><Leaf size={20} /><span><strong>Purposeful impact</strong> Let your wealth compound with intention.</span></div></div><Link className="text-link" href="/market">Explore assets <ChevronRight size={16} /></Link></div><div className="feature-visual"><img src={growth} alt="New growth emerging from a forest floor" /><div className="visual-card"><span>Growth mindset</span><strong>Patient capital<br />opens doors.</strong><small>01 — global24hourtrade Research</small></div></div></div></section>
+        <section className="feature-section section-pad"><div className="container feature-grid"><div className="feature-copy"><p className="eyebrow"><span className="eyebrow-dot" /> Why primexvaults</p><h2>Grow with conviction<br /><em>and clarity.</em></h2><p>We combine global diversification with a steady, human perspective. No hype. No hidden fees. Just a robust system designed for your future.</p><div className="feature-list"><div><ShieldCheck size={20} /><span><strong>Built for resilience</strong> Strategies engineered for decades, not days.</span></div><div><LineChart size={20} /><span><strong>Radical transparency</strong> Know what you own, why you own it, and the true cost.</span></div><div><Leaf size={20} /><span><strong>Purposeful impact</strong> Let your wealth compound with intention.</span></div></div><Link className="text-link" href="/market">Explore assets <ChevronRight size={16} /></Link></div><div className="feature-visual"><img src={growth} alt="New growth emerging from a forest floor" /><div className="visual-card"><span>Growth mindset</span><strong>Patient capital<br />opens doors.</strong><small>01 — primexvaults Research</small></div></div></div></section>
 
         <CryptoFutureSection />
         <PortfolioShowcase />
@@ -145,11 +145,11 @@ export default function Home() {
         <HomeCollage />
         <MobileInvesting />
         
-        <section className="people-section section-pad container"><div className="people-copy"><div className="section-kicker"><span>05 / The human element</span><span className="line" /></div><h2>Smart tech.<br /><em>Human wisdom.</em></h2><p>Your life isn't a algorithm. Our team bridges the gap between market data and your personal goals, making every next step feel certain.</p><Link className="text-link" href="/about">Meet our strategists <ChevronRight size={16} /></Link></div><div className="people-portrait"><img src={advisor} alt="global24hourtrade investment advisor" /><div className="portrait-label"><span>Lilian Mensah</span><small>Lead Wealth Strategist</small></div></div></section>
+        <section className="people-section section-pad container"><div className="people-copy"><div className="section-kicker"><span>05 / The human element</span><span className="line" /></div><h2>Smart tech.<br /><em>Human wisdom.</em></h2><p>Your life isn't a algorithm. Our team bridges the gap between market data and your personal goals, making every next step feel certain.</p><Link className="text-link" href="/about">Meet our strategists <ChevronRight size={16} /></Link></div><div className="people-portrait"><img src={advisor} alt="primexvaults investment advisor" /><div className="portrait-label"><span>Lilian Mensah</span><small>Lead Wealth Strategist</small></div></div></section>
         
         <TrustSection />
 
-        <section className="dark-cta section-pad"><div className="container cta-inner"><Sparkles size={24} /><h2>Secure your<br /><em>future today.</em></h2><p>Analyze markets, start investing, and put a smarter plan into action.</p><div className="hero-actions"><a className="button button-sand" href="https://app.global24hourtrade.com">Start investing <ArrowUpRight size={16} /></a><a className="button button-ghost" href="https://app.global24hourtrade.com">Create account <ArrowUpRight size={16} /></a></div><div className="cta-ornament">R<br />S</div></div></section>
+        <section className="dark-cta section-pad"><div className="container cta-inner"><Sparkles size={24} /><h2>Secure your<br /><em>future today.</em></h2><p>Analyze markets, start investing, and put a smarter plan into action.</p><div className="hero-actions"><a className="button button-sand" href="https://app.primexvaults.com">Start investing <ArrowUpRight size={16} /></a><a className="button button-ghost" href="https://app.primexvaults.com">Create account <ArrowUpRight size={16} /></a></div><div className="cta-ornament">R<br />S</div></div></section>
       </main>
       <SiteFooter />
       

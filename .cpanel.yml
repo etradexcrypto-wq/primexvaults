@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/kepelvrjuc/global24hourtrade.com/
+    - export DEPLOYPATH=/home/kepelvrjuc/primexvaults.com/
     - /bin/cp -R dist/. $DEPLOYPATH

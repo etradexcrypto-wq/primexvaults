@@ -18,9 +18,9 @@ export function SiteHeader() {
   return (
     <header className="site-header">
       <div className="header-pill">
-        <Link href="/" className="brand" aria-label="global24hourtrade home">
+        <Link href="/" className="brand" aria-label="primexvaults home">
           <span className="leaf-mark" aria-hidden="true"><svg viewBox="0 0 28 28"><path d="M24 4C13 4 5 8 4 21c7 1 14-2 17-8 2-4 2-7 3-9Z" /><path d="M4 21c5-5 10-8 16-11" /></svg></span>
-          <span>global24hourtrade</span>
+          <span>primexvaults</span>
         </Link>
         <HeaderLoader />
         <nav className="desktop-nav" aria-label="Main navigation">
@@ -28,16 +28,16 @@ export function SiteHeader() {
         </nav>
         <div className="header-actions">
           <GoogleTranslate />
-          <a className="header-login" href="https://app.global24hourtrade.com">Log in</a>
-          <a className="button button-dark header-cta" href="https://app.global24hourtrade.com">Get started <ArrowUpRight size={15} /></a>
+          <a className="header-login" href="https://app.primexvaults.com">Log in</a>
+          <a className="button button-dark header-cta" href="https://app.primexvaults.com">Get started <ArrowUpRight size={15} /></a>
         </div>
         <div className="mobile-translator"><GoogleTranslate /></div>
         <button className="mobile-menu" aria-label="Toggle menu" onClick={() => setOpen(!open)}>{open ? <X size={20} /> : <Menu size={20} />}</button>
       </div>
       {open && <div className="mobile-nav">
         {navItems.map(([label, href]) => <Link key={href} href={href} onClick={() => setOpen(false)}>{label}</Link>)}
-        <a href="https://app.global24hourtrade.com">Log in</a>
-        <a className="button button-dark" href="https://app.global24hourtrade.com">Get started <ArrowUpRight size={15} /></a>
+        <a href="https://app.primexvaults.com">Log in</a>
+        <a className="button button-dark" href="https://app.primexvaults.com">Get started <ArrowUpRight size={15} /></a>
       </div>}
     </header>
   );
@@ -46,10 +46,10 @@ export function SiteHeader() {
 export function SiteFooter() {
   return <footer className="site-footer">
     <div className="footer-top">
-      <Link href="/" className="brand footer-brand"><span className="leaf-mark" aria-hidden="true"><svg viewBox="0 0 28 28"><path d="M24 4C13 4 5 8 4 21c7 1 14-2 17-8 2-4 3-7 3-9Z" /><path d="M4 21c5-5 10-8 16-11" /></svg></span><span>global24hourtrade</span></Link>
-      <div className="footer-cta"><p>Make your next move<br /><em>deliberate.</em></p><a className="button button-sand" href="https://app.global24hourtrade.com">Open your account <ArrowUpRight size={16} /></a></div>
+      <Link href="/" className="brand footer-brand"><span className="leaf-mark" aria-hidden="true"><svg viewBox="0 0 28 28"><path d="M24 4C13 4 5 8 4 21c7 1 14-2 17-8 2-4 3-7 3-9Z" /><path d="M4 21c5-5 10-8 16-11" /></svg></span><span>primexvaults</span></Link>
+      <div className="footer-cta"><p>Make your next move<br /><em>deliberate.</em></p><a className="button button-sand" href="https://app.primexvaults.com">Open your account <ArrowUpRight size={16} /></a></div>
     </div>
-    <div className="footer-columns"><div><small>Explore</small><Link href="/market">Markets</Link><Link href="/approach">Our approach</Link><Link href="/about">About global24hourtrade</Link></div><div><small>Resources</small><Link href="/market">Stock research</Link><Link href="/approach">Investment education</Link><a href="mailto:support@global24hourtrade.com">Support</a></div><div><small>Follow along</small><div className="footer-socials"><a href="https://x.com" aria-label="X">𝕏</a><a href="https://tiktok.com" aria-label="TikTok">♪</a><a href="https://facebook.com" aria-label="Facebook">f</a></div></div></div>
+    <div className="footer-columns"><div><small>Explore</small><Link href="/market">Markets</Link><Link href="/approach">Our approach</Link><Link href="/about">About primexvaults</Link></div><div><small>Resources</small><Link href="/market">Stock research</Link><Link href="/approach">Investment education</Link><a href="mailto:support@primexvaults.com">Support</a></div><div><small>Follow along</small><div className="footer-socials"><a href="https://x.com" aria-label="X">𝕏</a><a href="https://tiktok.com" aria-label="TikTok">♪</a><a href="https://facebook.com" aria-label="Facebook">f</a></div></div></div>
 <p className="footer-disclaimer">
   <strong>Investment Risk:</strong> Investing involves risk, including the possible loss of principal. Investment values may rise or fall, and past performance does not guarantee future results. Market information is provided for educational and informational purposes only and should not be considered financial, investment, tax, or legal advice.
 </p>
@@ -69,6 +69,6 @@ export function SiteFooter() {
 <p className="footer-disclaimer">
   <strong>Terms &amp; Conditions:</strong> Your access to and use of this website and its services are subject to our Terms &amp; Conditions. By using the website, you acknowledge and agree to the applicable terms, policies, disclosures, and requirements.
 </p>
-    <div className="footer-bottom"><span>© 2026 global24hourtrade</span><a href="mailto:support@global24hourtrade.com">support@global24hourtrade.com</a><span><a href="#privacy">Privacy</a> · <a href="#cookies">Cookies</a> · <a href="#terms">Terms</a></span></div>
+    <div className="footer-bottom"><span>© 2026 primexvaults</span><a href="mailto:support@primexvaults.com">support@primexvaults.com</a><span><a href="#privacy">Privacy</a> · <a href="#cookies">Cookies</a> · <a href="#terms">Terms</a></span></div>
   </footer>;
 }
